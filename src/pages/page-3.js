@@ -3,7 +3,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const PageThree = () => {
     return (
-        <div>
+        <div class="content">
             <h1>Page Three Content</h1>
             <AniLink cover
                 to="/page-4"

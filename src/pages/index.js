@@ -1,9 +1,10 @@
 import * as React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import "../styles/style.css"
 
 const IndexPage = () => {
   return (
-    <div>
+    <div class="content">
       <h1>Page 1 Content</h1>
       <AniLink paintDrip
         to="/page-2"
