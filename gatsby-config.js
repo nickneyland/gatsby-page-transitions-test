@@ -3,5 +3,7 @@ module.exports = {
     title: `gatsby page transitions`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-transition-link`
+  ],
 }
